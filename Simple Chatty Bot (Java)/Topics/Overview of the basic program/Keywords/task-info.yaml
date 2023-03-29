@@ -1,0 +1,31 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: class
+- text: static
+- text: public
+- text: "System.out.println(\"Hello, World!\");"
+- text: HelloWorldProgram
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3758#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 29 Mar 2023 01:19:46 UTC"
+record: -1
+selected_options:
+- 0
+- 1
+- 2
+local_check: false
